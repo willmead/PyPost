@@ -22,7 +22,7 @@
     <section class='section'>
       <div class='container'>
         <h1 class='title'>New Post</h1>
-          <form action="{% url 'postsapp:new_post' %}" method="post">
+          <form action="{% url 'app:new_post' %}" method="post">
             {% csrf_token %}
             <div class="field is-grouped">
               <div class="control is-expanded">
